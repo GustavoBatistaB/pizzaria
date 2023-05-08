@@ -1,0 +1,124 @@
+
+* {
+    font-size: 16px;
+}
+
+h1, h2, h3 {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D90404;
+}
+
+h4, h5, h6 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: #F2B705;
+}
+
+h1  {
+    font-size: 600%;
+    font-weight: 200;
+}
+
+h2 {
+    font-size: 400%;
+    font-weight: 200;
+}
+
+h2::after {
+    display: block;
+    background-color: #078c31;
+    height: 5px;
+    width: 100px;
+    margin: 40px auto 30px;
+    content: " ";
+}
+
+h4 {
+    font-size: 150%;
+    font-weight 150;
+    padding: 20px 0;
+}
+
+p, li, a {
+    font-family: 'Open Sans', sans-serif;
+    color: #404040;
+}
+
+p.emphasis {
+    font-size: 130%;
+    line-height: 1.8;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+
+}
+
+
+/* ELEMENTOS HEADER */
+
+header div#called h1 {
+    color: #FFF;
+    text-shadow: 4px 6px 12px #000;
+
+}
+
+header div#called h4 {
+    font-size: 250%;
+    text-shadow: 4px 6px 12px #000;
+    margin-bottom: 55px;
+}
+
+header div#called a {
+    font-size: 110%;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 600;
+    background: linear-gradient(rgba(7, 140, 49,55) 0%, rgba(6, 89, 2, 35) 60%, rgba(6, 89, 2, 35) 100%);
+    padding: 20px 80px;
+    border-radius: 50px;
+}
+
+/*----------------*/
+
+/* section sunday perfect */
+
+div.points-keys h4 {
+    color: #404040;
+}
+
+div.points-keys h4::after {
+    display: block;
+    background-color: #078c31;
+    height: 5px;
+    width: 30%;
+    margin: 20px auto 10px;
+    content: " ";
+}
+
+
+
+/* -------------- */
+
+/* section Pizza */
+
+section#pizza p.emphasis {
+    color: #FFF;
+    width: 40%;
+}
+
+section#pizza ul li {
+    color: #FFF;
+    list-style: none;
+    line-height: 1.9;
+    font-size: 90%;
+    text-transform: uppercase;
+}
+
+/* section  witness */
+
+section#witness p.emphasis {
+    width: 40%;
+
+}
